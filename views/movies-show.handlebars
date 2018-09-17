@@ -1,0 +1,10 @@
+<section id="container-movie">
+  <h1>{{movie.title}}</h1>
+  <h2>{{movie.homepage}}</h2>
+  <h3>{{movie.overview}}</h3>
+  <img src="http://image.tmdb.org/t/p/w500/{{movie.poster_path}}" alt="">
+  <div class="embed-responsive embed-responsive-21by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{movie.trailer_youtube_id}}?rel=0"></iframe>
+</div>
+  <a href="/"><button type="button" name="button">Click Here to go back</button></a>
+</section>
